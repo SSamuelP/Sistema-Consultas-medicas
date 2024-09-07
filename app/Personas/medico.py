@@ -1,5 +1,5 @@
-from app.models.Personas.persona import Persona
-from agenda import Agenda
+from persona import Persona
+from Agenda.agenda import Agenda
 
 class Medico(Persona):
     def __init__(self, identificacion, nombre, celular, especialidad):
