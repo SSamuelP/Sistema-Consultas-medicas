@@ -1,4 +1,4 @@
-from persona import Persona
+from app.models.Personas.persona import Persona
 from agenda import Agenda
 from cita import Cita
 

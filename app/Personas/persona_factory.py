@@ -1,5 +1,5 @@
-from paciente import Paciente
-from medico import Medico
+from app.Personas.paciente import Paciente
+from app.Personas.medico import Medico
 
 class PersonasFactory:
     @staticmethod
