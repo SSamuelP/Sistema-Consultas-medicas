@@ -35,7 +35,8 @@ class ReporteCancelaciones(Reporte):
         self.motivo_cancelacion = motivo_cancelacion
 
     def generar_reporte(self):
-        print(f"Generando reporte de cancelaciones por motivo: {self.motivo_cancelacion}")
+        print(
+            f"Generando reporte de cancelaciones por motivo: {self.motivo_cancelacion}")
 
 
 class ReporteAusentismo(Reporte):

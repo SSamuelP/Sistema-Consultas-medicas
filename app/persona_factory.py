@@ -1,16 +1,15 @@
 from paciente import Paciente
 from medico import Medico
 
+
 class PersonasFactory:
     @staticmethod
-    def crear_persona(tipo, identificacion, nombre, celular, **kwargs):
+    def crear_persona(tipo, identificacion, nombre, celular, especialidad=None, correo=None):
         if tipo.lower() == 'medico':
-            especialidad = kwargs.get('especialidad')
             return Medico(identificacion, nombre, celular, especialidad)
-        
+
         elif tipo.lower() == 'paciente':
-            correo = kwargs.get('correo')
             return Paciente(identificacion, nombre, celular, correo)
-        
+
         else:
             raise ValueError(f"Tipo de persona desconocido: {tipo}")
