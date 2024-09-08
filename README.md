@@ -21,7 +21,7 @@ Este proyecto es un sistema de gestión de citas médicas diseñado para permiti
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tuusuario/sistema-citas-medicas.git
+    git clone https://github.com/SSamuelP/Sistema-Consultas-medicas.git
     cd sistema-citas-medicas
     ```
 
