@@ -33,7 +33,7 @@ Este proyecto es un sistema de gestión de citas médicas diseñado para permiti
 
 3. Asegurate de haber descargado los requerimientos.
     ```bash
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 
 4. Ejecuta el archivo `main.py` desde la terminal o consola de tu sistema operativo para interactuar con el menú.
